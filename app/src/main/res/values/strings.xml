@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="welcome">Welcome to the Quiz Game</string>
+    <string name="start">Start</string>
+    <string name="end">The End</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="logo">Logo</string>
+    <string name="image">Image</string>
+    <string name="msg1">Enter your name</string>
+    <string name="errorMessage">Enter valid name</string>
+    <string name="finish">Finish</string>
+
+    //Question 01
+    <string name="q1">#Question 01</string>
+    <string name="question1">Internet Explorer is a - </string>
+    <string name="option11">Any person browsing the net</string>
+    <string name="option12">Web Browser</string>
+    <string name="option13">Graphing Package</string>
+    <string name="option14">News Reader</string>
+
+    //Question 02
+    <string name="q2">#Question 02</string>
+    <string name="question2">What is a URL?</string>
+    <string name="option21">A computer software program</string>
+    <string name="option22">A type of UFO</string>
+    <string name="option23">The address of a document or "page" on the World Wide Web</string>
+    <string name="option24">An acronym for Uniform Resources Learning</string>
+
+    //Question 03
+    <string name="q3">#Question 03</string>
+    <string name="question3">Who developed Yahoo?</string>
+    <string name="option31"> Dennis Richie and Ken Thompson</string>
+    <string name="option32">David Filo and Jerry Yang</string>
+    <string name="option33">Vint Cerf and Robert Kahn</string>
+    <string name="option34">Steve Case and Jeff Bezos</string>
+
+    //Question 04
+    <string name="q4">#Question 04</string>
+    <string name="question4">\'.JPG\' extension refers usually to what kind of file?</string>
+    <string name="option41">System file</string>
+    <string name="option42">Animation/movie file</string>
+    <string name="option43">MS Encarta document</string>
+    <string name="option44"> Image file</string>
+
+
+    //Question 05
+    <string name="q5">#Question 05</string>
+    <string name="question5">What was the first ARPANET message?</string>
+    <string name="option51">\"lo\"</string>
+    <string name="option52">\"hello world\"</string>
+    <string name="option53">\"mary had a little lamb\"</string>
+    <string name="option54">\"cyberspace, the final frontier\"</string>
+
+
+</resources>

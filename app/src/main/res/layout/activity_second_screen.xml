@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <ImageView
+            android:id="@+id/main_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginStart="30dp"
+            android:drawableStart="@drawable/username"
+            android:drawablePadding="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"
+            android:hint="@string/msg1"
+            android:background="@drawable/custom_edit_text_background"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:autofillHints="name" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+
+        <Button
+            android:id="@+id/startQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_quiz"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button_background"
+            android:textSize="18sp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/image1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/logo"/>
+
+    </LinearLayout>
+
+</ScrollView>
