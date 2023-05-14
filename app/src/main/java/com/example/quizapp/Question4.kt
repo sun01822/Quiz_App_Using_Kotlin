@@ -79,6 +79,8 @@ class Question4 : AppCompatActivity() {
             intent.putExtra("name", name)
             intent.putExtra("points", points)
             startActivity(intent)
+            finish()
+
         }
     }
 }

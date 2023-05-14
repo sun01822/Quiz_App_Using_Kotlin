@@ -81,6 +81,8 @@ class Question2 : AppCompatActivity() {
             intent.putExtra("name", name)
             intent.putExtra("points", points)
             startActivity(intent)
+            finish()
+
         }
 
     }

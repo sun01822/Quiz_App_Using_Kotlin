@@ -23,6 +23,7 @@ class SecondScreen : AppCompatActivity() {
                 val intent = Intent(this, Question1::class.java)
                 intent.putExtra("name", nameText)
                 startActivity(intent)
+                finish()
             } else {
                 name.setBackgroundResource(R.drawable.custom_edit_text_error_background)
                 Toast.makeText(this, R.string.errorMessage, Toast.LENGTH_SHORT).show()

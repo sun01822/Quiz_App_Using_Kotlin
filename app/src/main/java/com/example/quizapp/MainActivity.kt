@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         start.setOnClickListener {
             val intent = Intent(this, SecondScreen::class.java)
             startActivity(intent)
+            finish()
         }
 
     }
